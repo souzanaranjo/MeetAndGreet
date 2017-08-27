@@ -11,5 +11,8 @@
 // about supported directives.
 //
 //= require rails-ujs
+//= require bootstrap-tags-input
+//= require register
+//= require indexJS
 //= require turbolinks
 //= require_tree .

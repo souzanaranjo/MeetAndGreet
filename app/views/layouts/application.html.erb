@@ -9,6 +9,25 @@
   </head>
 
   <body>
+  
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand">Global Project</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Descubre</a></li>
+          <li><a href="inscribir.html">Inscribe</a></li>
+        </ul>
+          
+        <ul id="LogButtons" class="nav navbar-nav navbar-right text-primary-color">
+             <li><a href="register.html" class="btn" data-toggle="modal" data-target="#CrearCuenta"><span class="glyphicon glyphicon-user"></span> Crear cuenta</a></li>
+           <li><a href="login.html" class="btn" data-toggle="modal" data-target="#IniciarSesion"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesión</a></li>
+        </ul>
+       
+          
+      </div>
+    </nav>
     <%= yield %>
       <p class="notice"><%= notice %></p>
        <p class="alert"><%= alert %></p>

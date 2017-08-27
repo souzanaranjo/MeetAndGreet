@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+.btn-center{
+    width: 100%;
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+.hiddenElement{
+    display: none;
+}
+
+.dark-primary-color    { background: #795548; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FF9800; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { background-color: #BDBDBD; }
+
+/******************************
+FOOTER
+******************************/
+
+footer {
+    font-size: 80%;
+    color: white;
+    overflow: hidden;
+    clear: both;    
+}
+
+.social-links{
+    list-style: none;
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links li a{
+    font-size: 160%;
+    color: white;
+}
+
+.copyright{
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+}
+
+.creators{
+    text-align: center;
+    margin-top: 18px;  
+}
+
+.icon{
+    vertical-align: middle;
+}
+
+
+/******************************
+SUBNAV ENCUENTRA
+******************************/
+
+#subnav{
+    padding-top: 10px;
+    width: 100%;  
+}
+
+#subnav li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#subnav li a{
+    text-decoration: none;
+}
+
+#subnav li:hover{
+    border-bottom: 2px solid #FF9800;
+    cursor: pointer;
+}
+
+.navEncuentra{
+    margin-top: 50px;
+    height: 40px;
+    text-align: center;
+    background-color: #efefef;
+    
+}
+
+
+.hiddenElement, .hiddenSection{
+    display: none;
+}
+
+/******************************
+LISTA ENCUENTRA 
+******************************/
+
+#lista{
+    height: 100%;
+    margin-left: 20px;
+}
+
+.detail{
+    border: 2px solid #efefef;
+    height: 230px;
+    margin: 5px;
+    margin-left: 50px;
+}
+
+.detail img{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 30%;  
+    margin-left: -15px;
+}
+
+.favFechaDir li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.caracteristicas li{
+    display: inline-block;
+    margin-left: 10px;
+    width: 20%
+}
+
+.caracteristicas2 li{
+    width: 50%;
+}
+
+.heart{
+    font-size: 300%;
+}
+
+.heart:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.redheart{
+    color: red;
+}
+
+.selected{
+    border-bottom: 2px solid #FF9800;
+}
+
+#numProp{
+    margin-left: 30px;
+}
+
+
+/******************************
+CARRUSEL
+******************************/
+
+#myCarousel{
+    height: 100vh;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+html, body{
+    height: 100%
+}
+
+
+#Mapa{
+    height: 100%;
+    width: 100%;
+    float: right;
+    padding: 50px;
+}
+
+#MapaEncuentra{
+    height: 100%;
+    text-align: center;
+}
+
+#map{
+    height: 100%;
+}
+
+
+
+
+/*****************************
+MI PERFIL
+*****************************/
+#div-container{
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+}
+
+#profile-info{
+    text-align: left;
+}
+
+.center-button{
+    width: 100%;
+    text-align: center;
+}
+
+.profile-info-input{
+    width: 100%;
+}
+
+.perfil-input{
+    margin-bottom: 20px;
+}
