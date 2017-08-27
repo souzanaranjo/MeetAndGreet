@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    alert("Hola");
     $("#ciudadNombre").oninput = autoCompletar();
     $('#intereses').tagsinput({
                 maxTags:4,
